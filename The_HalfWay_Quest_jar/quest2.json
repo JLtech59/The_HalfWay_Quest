@@ -1,0 +1,174 @@
+{
+    "1":[ 
+        {
+            "display" : "You start the quest in the Shire ! The white mage Gandalf come to you and offers you to join the “a great journey”."
+        },
+        {
+           "display": "1 : Accept the quest",
+           "gain": "1",
+           "loss": "0",
+           "finalDisplay": "Gandalf : Good choice !"
+        }
+        
+      ,
+      {
+           "display": "2 : Refuse the quest",
+           "gain": "0",
+           "loss": "0",
+           "finalDisplay": "Gandalf : Wrong choice ! / I will repeat my question /"
+        }
+      ],
+      "2":[ 
+        {
+            "display" : "Gandalf : Your quest is to destroy the ring in the doom mount !"
+        },
+        {
+           "display": "1 : Travel to the north.",
+           "gain": "0",
+           "loss": "-5",
+           "finalDisplay": "/ You go to the Ice bay of Forochel, you don’t have warm clothes go away. /"
+        },
+      {
+           "display": "2 : Travel to the east.",
+           "gain": "1",
+           "loss": "0",
+           "finalDisplay": "/ You're going to Bree /"
+        }
+      ],
+      "3":[ 
+        {
+            "display" : "/ You arrive to the Poney fringuan’s tavern. /"
+        },
+        {
+           "display": "1 : Try the Gobelin’s liquor.",
+           "gain": "0",
+           "loss": "-5",
+           "finalDisplay": "/ Unfortunately, you’re allergic to the hobbit’s blood (group : AB+), Take something else. /"
+        },
+      {
+           "display": "2 : Drink one beer.",
+           "gain": "1",
+           "loss": "0",
+           "finalDisplay": "/ The beer was disgusting and expensive however something catches your eyes ! /"
+        }
+      ],
+      "4":[ 
+        {
+            "display" : "/ You see a stranger covered with a large cape in the darkness of the tavern. /"
+        },
+        {
+           "display": "1 : Talk to the stranger.",
+           "gain": "0",
+           "loss": "0",
+           "finalDisplay": "/ Your mom told you to never talk to a stranger /"
+        },
+      {
+           "display": "2 : Don’t pay attention and continue to drink. ",
+           "gain": "1",
+           "loss": "0",
+           "finalDisplay": "/ You’re drunk, a man bring you back to your room. Incredible, it’s the human Aragorn (son of Arathorn). /"
+        }
+    ],
+    "5":[ 
+        {
+            "display" : "/ You hit the road with all the ring community. Now you have to choice between a mysterious cave or the safe paved way. /"
+        },
+        {
+           "display": "1 : Cave.",
+           "gain": "1",
+           "loss": "0",
+           "finalDisplay": "/ A stone-giant throws a rock on your face. But you avoid it, Congratulation ! /"
+        },
+      {
+           "display": "2 : Paved way.",
+           "gain": "0",
+           "loss": "-10",
+           "finalDisplay": "/ It’s a trap, you’re catch by giant spiders you go back /"
+        }
+    ],
+    "6":[ 
+        {
+            "display" : "/ You hear a loud noise. Gandalf freezes and says with a little voice “It’s the dragon Dontpetme ! RUN !”.\n You don’t have the time and the dragon appears in front of you ! /"
+        },
+        {
+           "display": "1 : Pet him.",
+           "gain": "1",
+           "loss": "0",
+           "finalDisplay": "/ The dragon falls asleep, well done /"
+        },
+      {
+           "display": "2 : Run.",
+           "gain": "1",
+           "loss": "-20",
+           "finalDisplay": "/ He's too fast for you. He burns you /"
+        }
+    ],
+    "7":[ 
+        {
+            "display" : "/ Saruman sees you in the Palantir and decides to stop you by himself. /"
+        },
+        {
+           "display": "1 : Convince trees to help you.",
+           "gain": "1",
+           "loss": "0",
+           "finalDisplay": "/ Astonishingly, they accept and start to throw rock on the tower. A pebble arrive in Saruman’s eyes, he gives up !\nYou can continue your quest. /"
+        },
+      {
+           "display": "2 : Ask help to the Rohan’s king",
+           "gain": "0",
+           "loss": "0",
+           "finalDisplay": "/ According to him, your life doesn't matter so he kick you out his kingdom. /"
+        }
+    ],
+    "8":[ 
+        {
+            "display" : "/ You meet Gollum on the way to the Mordor, he offer you to lead you to Orodruin(Doom Mount). /"
+        },
+        {
+           "display": "1 : Refuse and kill this abomination.",
+           "gain": "0",
+           "loss": "-10",
+           "finalDisplay": "/ You never find the Mordor’s entry, you run out of food. It's complicated for you /"
+        },
+      {
+           "display": "2 : Accept.",
+           "gain": "1",
+           "loss": "0",
+           "finalDisplay": "/ He lead you to the Mordor’s entry without any try to steal the ring, you’re confuse but happy. /"
+        }
+    ],
+    "9":[ 
+        {
+            "display" : "/ You’re in front of the Mordor’s entry, you have the choice : /"
+        },
+        {
+           "display": "1 : The big door.",
+           "gain": "0",
+           "loss": "-1000000000",
+           "finalDisplay": "/ Everyone is seeing you, you’re absolutely not sneaky, Soron kills you and get back the ring. you’re a dumb loser ! /"
+        },
+      {
+           "display": "2 : The sneaky way on the side.",
+           "gain": "1",
+           "loss": "0",
+           "finalDisplay": "/ Congratulation you passed under the Soron’s gaze and reach Orodruin ! /"
+        }
+    ],
+    "10":[ 
+        {
+            "display" : "/ You arrive on the edge of the lava : /"
+        },
+        {
+           "display": "1 : Throw the ring.",
+           "gain": "0",
+           "loss": "-20",
+           "finalDisplay": "/ Your to strong, miss the lava and the ring finish his flight on the Soron’s eyes.  He thanks you and call his Nazgul to kill you. /"
+        },
+      {
+           "display": "2 : Keep the ring and kill Sam and Golum.",
+           "gain": "0",
+           "loss": "0",
+           "finalDisplay": "/ The ring corrupted you, eagles arrive before you draw your weapon /"
+        }
+    ]
+}
