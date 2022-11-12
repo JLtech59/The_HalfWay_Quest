@@ -1,0 +1,174 @@
+{
+    "1":[ 
+        {
+           "display": "You start the quest in the Shire ! The white mage Gandalf come to you and offer you to joint the “big quest”."
+        },
+        {
+           "display": "1 : Accept the quest and go directly to Bree",
+           "gain": "2",
+           "loss": "0",
+           "finalDisplay": "Gandalf : Good choice !\nYou arrive in Bree"
+        }
+        
+      ,
+      {
+           "display": "2 : Refuse the quest",
+           "gain": "0",
+           "loss": "-100",
+           "finalDisplay": "Gandalf : Wrong choice ! / Gandalf leave the Shire, casts a frozen spell on you and you died ! /"
+        }
+      ],
+      "2":[ 
+        {
+            "display" : "Gandalf : Your quest is to destroy the ring in the Orodruin !"
+        },
+        {
+           "display": "1 : Travel to the west.",
+           "gain": "0",
+           "loss": "0",
+           "finalDisplay": "/ Yes the sea is beautiful, but wrong direction/"
+        },
+      {
+           "display": "2 : Travel to the east.",
+           "gain": "1",
+           "loss": "0",
+           "finalDisplay": "/ You're going to Bree /"
+        }
+      ],
+      "3":[ 
+        {
+            "display" : "/ You arrive to the Bree’s tavern. /"
+        },
+        {
+           "display": "1 : Drink too much beers.",
+           "gain": "0",
+           "loss": "-100",
+           "finalDisplay": "/ You drunk to much beer, forget your quest, give the ring to the Nazgul and loose the game. /"
+        },
+      {
+           "display": "2 : Drink one beer.",
+           "gain": "1",
+           "loss": "0",
+           "finalDisplay": "/ The beer was incredible ! /"
+        }
+      ],
+      "4":[ 
+        {
+            "display" : "/ You see a stranger covered with a large cape in the darkness of the tavern. /"
+        },
+        {
+           "display": "1 : Talk to the stranger.",
+           "gain": "1",
+           "loss": "0",
+           "finalDisplay": "/ Incredible, the stranger is the human Aragorn (son of Arathorn). After few minutes of talking, he accepts to help you in your quest. /"
+        },
+      {
+           "display": "2 : Don’t pay attention and continue to drink. ",
+           "gain": "0",
+           "loss": "0",
+           "finalDisplay": "/ You are forgetting your mission ! /"
+        }
+    ],
+    "5":[ 
+        {
+            "display" : "/ You hit the road with all the ring community. You now have to choice between the mountain or the Moria’s mines. /"
+        },
+        {
+           "display": "1 : Mountain.",
+           "gain": "0",
+           "loss": "-10",
+           "finalDisplay": "/ A stone-giant throw a rock on your face. Congratulation, you’re now a pancake !\n Hopefully Gandalf is there to reestablish you /"
+        },
+      {
+           "display": "2 : Moria’s mines. ",
+           "gain": "1",
+           "loss": "0",
+           "finalDisplay": "/ Well done ! you can now travel safety. /"
+        }
+    ],
+    "6":[ 
+        {
+            "display" : "/ You continue your travel, you hear a loud noise. Gandalf freeze and say with a little voice “It’s the Balrog flamme-doudoune ! RUN !”.\n After few minutes of a frantic flight, you arrive to a bridge, everyone cross it, Gandalf make his famous “You should not pass” but\n Flamme-doudoune catch Gandalf feet’s and you now have the choice : save Gandalf ? /"
+        },
+        {
+           "display": "1 : Yes.",
+           "gain": "0",
+           "loss": "-10",
+           "finalDisplay": "/ Everyone is cheering for you but don’t be stupid, it’s not a bad dog, it’s Flamme-doudoune.\n He burns you it's impossible to go further /"
+        },
+      {
+           "display": "2 : No.",
+           "gain": "1",
+           "loss": "0",
+           "finalDisplay": "/ Everyone is flaming you,  but congratulation, you’re alive and can continue your questWell done ! you can now travel safety. /"
+        }
+    ],
+    "7":[ 
+        {
+            "display" : "/ Orcs are following you, after few days of running, they finally reached you, you have 2 options : /"
+        },
+        {
+           "display": "1 : Give up.",
+           "gain": "1",
+           "loss": "0",
+           "finalDisplay": "/ Aragorn decides to fight for you, you find a little boat and go away with Sam Gangee (the one who never drink). /"
+        },
+      {
+           "display": "2 : Fight.",
+           "gain": "0",
+           "loss": "-10",
+           "finalDisplay": "/ Don’t be mad but you’re not a hero, Azog hurts you. /"
+        }
+    ],
+    "8":[ 
+        {
+            "display" : "/ You meet Golum on the way to the Mordor, he offer you to lead you to Orodruin(Mount Doom). /"
+        },
+        {
+           "display": "1 : Refuse and kill this abomination.",
+           "gain": "0",
+           "loss": "-10",
+           "finalDisplay": "/ You never find the Mordor’s entry, you run out of food. /"
+        },
+      {
+           "display": "2 : Accept.",
+           "gain": "1",
+           "loss": "0",
+           "finalDisplay": "/ He leads you to the Mordor’s entry without any try to steal the ring, you’re confuse but happy. /"
+        }
+    ],
+    "9":[ 
+        {
+            "display" : "/ You’re in front of the Mordor’s entry, you have the choice : /"
+        },
+        {
+           "display": "1 : The big door.",
+           "gain": "0",
+           "loss": "-1000000",
+           "finalDisplay": "/ Everyone is seeing you, you’re absolutely not sneaky, Soron kill you and get back the ring. you’re a dumb loser ! /"
+        },
+      {
+           "display": "2 : The sneaky way on the side.",
+           "gain": "1",
+           "loss": "0",
+           "finalDisplay": "/ Congratulation you passed under the Soron’s gaze and reach Orodruin ! /"
+        }
+    ],
+    "10":[ 
+        {
+            "display" : "/ You arrive on the edge of the lava : /"
+        },
+        {
+           "display": "1 : Throw the ring.",
+           "gain": "0",
+           "loss": "-20",
+           "finalDisplay": "/ Your to strong, miss the lava and the ring finish his flight on the Soron’s eyes.  He thanks you and call his Nazgul to attack you. /"
+        },
+      {
+           "display": "2 : Keep the ring.",
+           "gain": "1",
+           "loss": "0",
+           "finalDisplay": "/ Like in the movie, Golum try to steal the ring and fall in lava with the precious. CONGRATULATION ! You saved the middle earth ! /"
+        }
+    ]
+}
